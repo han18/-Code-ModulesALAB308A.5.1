@@ -1,24 +1,13 @@
-/// exporting and importing files 
-
+console.log("This is a the file index.js");
 
 export function sayHello() {
-    console.log("Hello this a module lab practice to import and export modules")
-
+    console.log("Hello, this is a module lab practice to import and export modules");
 }
-
-sayHello();
 
 export default function callMe() {
-    alert("This is an alert")
+   alert("This is an alert from the index.js file");
 }
 
-// callMe()
-
-export default function monthOfYear() {
-    let months = ['Jan', 'Feb', 'Mar','Apr', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-    return months;
-
+export function monthOfYear() {
+    return ['Jan', 'Feb', 'Mar', 'Apr', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 }
-
-monthOfYear();
-
